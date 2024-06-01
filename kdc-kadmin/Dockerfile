@@ -17,5 +17,5 @@ ENV SUPPORTED_ENCRYPTION_TYPES ${SUPPORTED_ENCRYPTION_TYPES:-aes256-cts-hmac-sha
 ENV KADMIN_PRINCIPAL ${KADMIN_PRINCIPAL:-kadmin/admin}
 ENV KADMIN_PASSWORD ${KADMIN_PASSWORD:-MITiys4K5}
 
-COPY init-script.sh /tmp/
-CMD /tmp/init-script.sh
+COPY ./init-script.sh /
+CMD /init-script.sh
