@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:12
 MAINTAINER Simão Martins "simao.martins@tecnico.ulisboa.pt"
 
 ENV DEBIAN_FRONTEND noninteractive
