@@ -1,5 +1,4 @@
 FROM debian:12
-MAINTAINER Simão Martins "simao.martins@tecnico.ulisboa.pt"
 
 EXPOSE 749 88
 
